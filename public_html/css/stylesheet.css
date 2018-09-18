@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+}
+body {
+  background: white;
+}
+
+header {
+  background-color: #FB9800;
+  background-image: url("img/el_rio.png");
+  color: #f9e5af;
+  font-family: Georgia, Palatino, serif;
+  font-size: 60px;
+  height: 75px;
+  padding: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 50%;
+}
+
+table {
+	width: 40%;
+
+}
+td{
+	text-align: center;
+}
+#table {
+	border-style: solid;
+	border-width: 5px;
+	border-color: 78D4D0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
+}
