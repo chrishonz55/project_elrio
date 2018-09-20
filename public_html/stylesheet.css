@@ -1,3 +1,41 @@
 body {
-    background: #F9FFEE;
+    background: #FFFFDE;
     }
+
+h1{
+    font-size: 40px;
+    font-family: arial,sans-serif;
+    color:#BD4932;
+}
+
+#header2{
+    font-size: 24px;
+    font-family: arial,sans-serif;
+    color:#BD4932;
+}
+.menu_item{
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    color:#BD4932;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #105B63;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
