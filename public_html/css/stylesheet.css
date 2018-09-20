@@ -15,25 +15,54 @@ header {
   height: 75px;
   padding: 10px;
 }
+#footer{
+	margin-top: 20%;
+	text-align: center; 
+	margin-right: 15%;
+
+}
+
+#div{
+	float: right; 
+	font-size: 1.2em;
+}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
     width: 50%;
+
+}
+.border{
+	border: solid;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+	
+
+h3{
+	font-size: 1.5em;
+	text-decoration: underline;
 }
 
 table {
-	width: 40%;
-
+	width: 25%;
+	margin-right: 10%;
 }
 td{
 	text-align: center;
+
 }
 #table {
 	border-style: solid;
 	border-width: 5px;
-	border-color: 78D4D0;
+	border-color: 	#D3D3D3;
+	float: right;
+	
+
+
 }
 nav ul {
   list-style-type: none;
