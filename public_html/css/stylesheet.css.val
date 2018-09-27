@@ -1,0 +1,275 @@
+
+--------------------------------------------------
+
+CSE HTML Validator Standard v17.05 (Registered)
+Checking "C:\Users\trey.chumbley\Desktop\project_elrio\public_html\css\stylesheet.css" (1243 characters).
+File date is Tuesday, September 25, 2018 at 8:20:42 AM.
+File checked on Thursday, September 27, 2018 at 8:12:07 AM.
+
+     Number of lines checked: -1 in 0.00 seconds
+ Number of lines in document: 88 (-1.1% of lines checked)
+     Number of lines ignored: 0
+Number of validator comments: 5
+          Number of messages: 13
+            Number of errors: 0
+          Number of warnings: 1 (first in line 63)
+
+--------------------------------------------------
+
+   1: h1 {
+   2:     text-align:center;
+   3:     font-size: 32px;
+
+   4:     color: #C71C00;
+----------|||||
+
+[CSE] Message number 1 in line 4:5:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+   5: }
+   6: 
+   7: h2 {
+   8:     text-align: center;
+   9:     font-size: 24px;
+
+  10:     color: #009A07;
+----------|||||
+
+[CSE] Message number 2 in line 10:5:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  11: }
+  12: 
+  13: h3 {
+  14:     text-align: center;
+  15:     font-size: 20px;
+
+  16:     color: #009A07;
+----------|||||
+
+[CSE] Message number 3 in line 16:5:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  17: }
+  18: 
+  19: body {
+
+  20:     background-color: #FFD77B;
+----------||||||||||||||||
+
+[CSE] Message number 4 in line 20:5:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  21: }
+  22: footer{
+  23:     text-align: center;
+  24: }
+  25: 
+  26: header {
+  27:     text-align: center;
+  28: }
+  29: 
+
+  30: .picture {
+------||||||||
+
+[CSE] Message number 5 in line 30:1:
+It's recommended that "*.picture" be used instead of
+".picture" so that the universal selector (*) is explicit
+instead of implied. Using explicit universal selectors can
+decrease confusion and improve readability. This message is
+displayed up to 3 times.
+
+  31:     text-align: center;
+
+  32:     border: none;
+----------||||||
+
+[CSE] Message number 6 in line 32:5:
+Note that the "border" shorthand property resets all border
+properties, including "border-image", to its initial value.
+Therefore, use the "border" shorthand, rather than other
+shorthands or the individual properties, to override any
+border settings earlier in the cascade. This will ensure
+that "border-image" has also been reset to allow the new
+styles to take effect. This message is displayed only once.
+
+  33:     background-color: #FFD77B;
+----------||||||||||||||||
+
+[CSE] Message number 7 in line 33:5:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  34: }
+  35: p {
+  36:     border: 4px solid black;
+
+  37:     background-color: #E8DBD5;
+----------||||||||||||||||
+
+[CSE] Message number 8 in line 37:5:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  38:     margin-right: 200px;
+  39:     margin-left: 200px;
+  40: }
+  41: 
+  42: nav ul {
+  43:   list-style-type: none;
+  44:   margin: 0;
+  45:   padding: 0;
+  46:   overflow: hidden;
+
+  47:   background-color: #C71C00;
+--------||||||||||||||||
+
+[CSE] Message number 9 in line 47:3:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  48:   font-family: arial,sans-serif;
+  49: }
+  50: 
+  51: nav li {
+  52:   float: left;
+  53: }
+  54: 
+  55: nav li a {
+  56:   display: block;
+
+  57:   color: #E8DBD5;
+--------|||||
+
+[CSE] Message number 10 in line 57:3:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  58:   text-align: center;
+  59:   padding: 14px 16px;
+  60:   text-decoration: none;
+  61: }
+  62: 
+
+  63: nav li a:hover {
+---------------|||||
+
+[CSE] Warning number 1 in line 63:10:
+Many mobile devices use touch screens making ":hover"
+problematic, cumbersome, or impossible to use. Depending on
+the browser, ":hover" might never match, or it might match
+for brief moments, or until the user touches another
+element. Ensure that content is never only accessible or
+only visible by hovering. This message is displayed only
+once.
+
+  64:   background-color: #009A07;
+--------||||||||||||||||
+
+[CSE] Message number 11 in line 64:3:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  65: }
+  66: 
+
+  67: #table1{
+------|||||||
+
+[CSE] Message number 12 in line 67:1:
+It's recommended that "*#table1" be used instead of
+"#table1" so that the universal selector (*) is explicit
+instead of implied. Using explicit universal selectors can
+decrease confusion and improve readability. This message is
+displayed up to 3 times.
+
+  68:     width:30%; 
+  69:     margin-left:35%; 
+  70:     margin-right:35%;
+  71: }
+  72: 
+
+  73: #table2{
+------|||||||
+
+[CSE] Message number 13 in line 73:1:
+It's recommended that "*#table2" be used instead of
+"#table2" so that the universal selector (*) is explicit
+instead of implied. Using explicit universal selectors can
+decrease confusion and improve readability. This message is
+displayed up to 3 times.
+
+  74:     width:15%; 
+  75:     margin-left:42.5%; 
+  76:     margin-right:42.5%;
+  77: }
+  78: 
+  79: table {
+  80:    border: 1px solid black;
+  81:    background-color: #E8DBD5;
+  82: }
+  83: 
+  84: th {
+  85:    border: 1px solid black;
+  86:    background-color: #009A07;
+  87: }
+  88: 
+
+[CSE] Comment number 1:
+[73] Section 508 accessibility checking is off.
+
+[CSE] Comment number 2:
+[73] WCAG 1.0 accessibility checking is off.
+
+[CSE] Comment number 3:
+[73] WCAG 2.0 accessibility checking is off.
+
+[CSE] Comment number 4:
+Accessibility checking is off. This program can help you
+make your web pages more accessible. An accessible page is
+one that more individuals can use, such as individuals who
+are blind or deaf. It can also increase the usefulness of
+your web page for individuals who browse the web using
+slower devices like older computers or wireless devices like
+mobile phones and PDAs. An accessible web site makes good
+business sense (and possibly good legal sense as well) and
+may even improve search engine rankings. You can enable or
+disable accessibility checking in the Validator Engine
+Options.
+
+[CSE] Comment number 5:
+CSS document detected.
+
+--------------------------------------------------
