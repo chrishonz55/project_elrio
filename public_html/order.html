@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>El Rio</title>
+<title>Order</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css">
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">El Rio - A Mexican Restaurant</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
@@ -43,20 +44,40 @@
     </ul>
     </div>
 </nav>
+
 <div class="container">
-<div class="jumbotron">
-<h1>El Rio - A Mexican Restaurant</h1>
-<p>World Famous Homemade Margaritas</p>
-<h2> <img src="img/el_rio.png" alt="River" /></h2>
-<a href="order.html" class="btn btn-primary"  role="button">Order Here</a>
-</div>
-<p>No one does Margaritas like El Rio does Margaritas&excl;</p>
-<p>1234 N. Center St. Indianola, IA 50501</p>
-<p>123-456-7890</p>
-</div>
+<h1>Order</h1>
+<form>
+    First Name:<br>
+    <input type="text" name="firstname"><br>
+    Last Name:<br>
+    <input type="text" name="lastname"><br>
+    Phone Number:<br>
+    <input type="text" name="phonenumber"><br>
+    Address:<br>
+    <input type="text" name="address"><br>
+    Item:<br>
+    <select name="item"><br>
+        <option value=" "> </option>
+        <option value="tacoSalad">Taco Salad</option>
+        <option value="grilledchickenSalad">Grilled Chicken Salad</option>
+        <option value="fishtacos">Fish Tacos</option>
+        <option value="seafoodchimichanga">Seafood Chimichanga</option>
+        <option value="fajitas">Fajitas</option>
+        <option value="quesadilla">Quesadillas</option>
+        <option value="chimichanga">Chimichanga</option>
+        <option value="burrito">Burrito</option>
+        <option value="steakandBeans">Steak and Beans</option>
+        <option value="tacos">Tacos</option>
+        <option value="cheeseburger">Cheeseburger</option>
+        <option value="chickenstrips">Chicken Strips</option>
+    </select>
+</form>
+<button type="button" class="btn btn-primary">Submit</button>
 <footer>
 &copy; 2018 Copyright &centerdot; El Rio Restaurant
 </footer>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
 crossorigin="anonymous"></script>
@@ -64,6 +85,5 @@ crossorigin="anonymous"></script>
 crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
 crossorigin="anonymous"></script>
-
 </body>
 </html>
